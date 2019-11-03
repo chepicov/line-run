@@ -72,7 +72,8 @@ public class WaypointCircuit : MonoBehaviour
         {
             ++point;
         }
-        if (point > Length - 1) {
+        if (point > Length - 1)
+        {
             return points[point];
         }
 
